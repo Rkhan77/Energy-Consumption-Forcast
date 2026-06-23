@@ -1,5 +1,5 @@
 # Energy-Consumption-Forecast using XGboost Machine Learning Library
-[Click here to see the full Code](https://github.com/Rkhan77/Energy-Consumption-Forcast/blob/main/PowerPrediction.ipynb)
+[Click here to see the full code](https://github.com/Rkhan77/Energy-Consumption-Forcast/blob/main/PowerPrediction.ipynb)
 
 The objective of this project is to build a time series forecasting model to predict energy consumption in megawatts. The XGBoost model is used as it has been shown to be effective in time series forecasting tasks.
 
