@@ -12,14 +12,19 @@ The XGBoost model is trained on the training data, with hyperparameters optimize
 Finally, the model is used to make future predictions for the energy consumption in megawatts, providing insights into potential future trends in energy consumption.
 
 The objective of this project is to build a time series forecasting model to predict energy consumption in megawatts. The XGBoost model is used as it has been shown to be effective in time series forecasting tasks. The project begins with importing the necessary libraries including pandas, numpy, seaborn, matplotlib, datetime, and xgboost, as well as importing the evaluation metrics for regression models, mean squared error, and mean absolute error from Scikit-learn.
-![alt text](img img files/1.png)
+
+![alt text](img files_energy/1.png)
 
 ![alt text](img files_energy/2.png)
+
 The data is then loaded and preprocessed, including converting the timestamp data into a datetime format and setting it as the index. The data is then split into training and testing sets.
+
 ![alt text](img files_energy/3.png)
 
 The XGBoost model is trained on the training data, with hyperparameters optimized using cross-validation. The trained model is then used to make predictions on the testing data, and the evaluation metrics are calculated to assess the model's performance.
 ![alt text](img files_energy/5.png)
+
 Finally, the model is used to make future predictions for the energy consumption in megawatts, providing insights into potential future trends in energy consumption.
+
 ![alt text](img files_energy/6.png)
 
